@@ -128,13 +128,6 @@ export default function Dashboard() {
             <Download className="w-4 h-4 mr-2 text-muted group-hover:text-text transition-colors" />
             Export CSV
           </button>
-          <button 
-            onClick={generateInsights} 
-            className="flex-1 sm:flex-none flex items-center justify-center px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
-          >
-            <BrainCircuit className="w-4 h-4 mr-2" />
-            AI Insights
-          </button>
         </div>
       </div>
 

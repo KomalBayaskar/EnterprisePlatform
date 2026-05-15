@@ -101,14 +101,7 @@ export default function Layout() {
             >
               <Menu className="w-6 h-6" />
             </button>
-            <div className="relative w-full max-w-md hidden sm:block">
-              <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
-              <input 
-                type="text" 
-                placeholder="Search across enterprise..." 
-                className="w-full bg-background border border-border rounded-full py-1.5 pl-10 pr-4 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
-              />
-            </div>
+            
           </div>
           
           <div className="flex items-center space-x-2 sm:space-x-4">
